@@ -1,14 +1,37 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
   text-align: center;
-  padding: 50px;
 }
 
-h1 {
-  color: #007acc;
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
 }
 
-p {
-  font-size: 18px;
+.welcome {
+  background: #e6f2ff;
+  padding: 40px;
+  text-align: center;
+}
+
+.info {
+  padding: 30px;
+  background: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004080;
+  color: white;
 }
